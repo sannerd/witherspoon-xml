@@ -15962,7 +15962,7 @@
 	</attribute>
 	<attribute>
 		<id>ASCII_VPD_LX_KEYWORD</id>
-		<default></default>
+		<default>0x3100070100300FF1</default>
 	</attribute>
 	<attribute>
 		<id>ASYNC_NEST_FREQ_MHZ</id>
@@ -16870,7 +16870,15 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default>SAPPHIRE</default>
+		<default>PHYP</default>
+	</attribute>
+	<attribute>
+		<id>PAYLOAD_ENTRY</id>
+		<default>0x180</default>
+	</attribute>
+	<attribute>
+		<id>PAYLOAD_BASE</id>
+		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
@@ -17155,7 +17163,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0xEC000000</default>
+		<default>0x00000000</default>
 	</attribute>
 	<attribute>
 		<id>MRW_DEFAULT_RISK_LEVEL</id>
